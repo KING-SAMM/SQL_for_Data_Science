@@ -1,13 +1,14 @@
-Lesson 3. SQL CLIENTS
+# Lesson 3 
+# SQL CLIENTS
 
-i. What are SQL clients?
+## What are SQL clients?
 
 SQL clients are software applications used to access and manage data in SQL databases. These clients provide a user-friendly interface for interacting with the database, executing SQL queries, and performing various database-related tasks.
 
-ii. Popular SQL clients: 
-    a. MySQL Workbench, 
-    b. SQL Server Management Studio, 
-    c. PostgreSQL.
+## Popular SQL clients: 
+    - MySQL Workbench, 
+    - SQL Server Management Studio, 
+    - PostgreSQL.
 
 a. MySQL Workbench: MySQL Workbench is a visual database design tool and SQL client that enables users to manage, develop, and maintain MySQL databases. It is a cross-platform application that provides a graphical user interface for creating and managing databases, designing database schema, and executing SQL queries.
 
@@ -15,7 +16,7 @@ b. SQL Server Management Studio: SQL Server Management Studio (SSMS) is a Window
 
 c. PostgreSQL: PostgreSQL is a popular open-source relational database management system (RDBMS) that provides robust support for SQL. It is known for its reliability, scalability, and extensibility. There are several SQL clients available for PostgreSQL, including pgAdmin, DBeaver, and Navicat.
 
-iii. Installing and configuring an SQL client.
+## Installing and configuring an SQL client.
 
 a. MySQL Workbench: To install MySQL Workbench, visit the MySQL website and download the appropriate installer for your operating system. Follow the on-screen instructions to install the software. After installation, launch MySQL Workbench and configure a new connection by providing the necessary database credentials.
 
@@ -23,7 +24,7 @@ b. SQL Server Management Studio: SQL Server Management Studio is typically insta
 
 c. PostgreSQL: To install PostgreSQL, visit the PostgreSQL website and download the appropriate installer for your operating system. Follow the on-screen instructions to install the software. After installation, launch your preferred SQL client and configure a new connection by providing the necessary database credentials.
 
-iv. Connecting to a database.
+## Connecting to a database.
 
 a. MySQL Workbench: To connect to a MySQL database with MySQL Workbench, launch the software and select "New Connection" from the "Database" menu. Enter the necessary database credentials, including the host name, port number, username, and password. Click "Test Connection" to ensure that the connection is successful, then click "OK" to save the connection details.
 

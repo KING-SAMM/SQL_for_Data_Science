@@ -1,6 +1,7 @@
-Lesson 4. BASIC SQL SYNTAX
+# Lesson 4 
+# BASIC SQL SYNTAX
 
-i. SQL Keywords: SELECT, FROM, WHERE
+## SQL Keywords: SELECT, FROM, WHERE
 
 SELECT: used to specify the columns that you want to retrieve from a table
 
@@ -8,19 +9,19 @@ FROM: used to specify the table or tables from which to retrieve data
 
 WHERE: used to specify the conditions that must be met for a row to be returned
 
-ii. Data Types: integer, float, text, date/time
+## Data Types: integer, float, text, date/time
 
 Integer: a whole number without a decimal point
 Float: a number with a decimal point
 Text: a string of characters, such as a word or sentence
 Date/time: a specific date or time value
 
-iii. Examples of Writing Basic Queries:
+## Writing Basic Queries:
 
 Retrieve all data from a single table:
 
-SELECT * 
-FROM customers;
+`SELECT * 
+FROM customers;`
 
 Retrieve specific columns from a single table:
 
@@ -29,9 +30,9 @@ FROM customers;
 
 Retrieve data based on a condition using WHERE:
 
-SELECT * 
+`SELECT * 
 FROM orders 
-WHERE order_date > '2022-01-01';
+WHERE order_date > '2022-01-01';`
 
 Retrieve data from multiple tables using JOIN:
 
