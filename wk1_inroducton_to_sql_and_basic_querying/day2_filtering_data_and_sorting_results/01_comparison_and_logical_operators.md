@@ -37,15 +37,15 @@ This query retrieves all customers from the *customers* table whose country is *
 
 Example 2: Using the *AND* operator in a `WHERE` clause to filter data
 
-`SELECT * FROM customers
-WHERE country = 'USA' AND age >= 25;`
+`SELECT * FROM customers`
+`WHERE country = 'USA' AND age >= 25;`
 
 This query retrieves all customers from the *customers* table whose country is *USA* and age is greater than or equal to 25.
 
 Example 3: Using the *OR* operator in a `WHERE` clause to filter data
 
-`SELECT * FROM customers
-WHERE country = 'USA' OR country = 'Canada';`
+`SELECT * FROM customers`
+`WHERE country = 'USA' OR country = 'Canada';`
 
 This query retrieves all customers from the *customers* table whose country is either *USA* or *Canada*.
 

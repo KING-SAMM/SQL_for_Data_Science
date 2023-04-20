@@ -29,44 +29,44 @@ FROM customers;`
 
 Retrieve specific columns from a single table:
 
-`SELECT customer_name, customer_email 
-FROM customers;`
+`SELECT customer_name, customer_email` 
+`FROM customers;`
 
 
 Retrieve data based on a condition using WHERE:
 
-`SELECT * 
-FROM orders 
-WHERE order_date > '2022-01-01';`
+`SELECT * `
+`FROM orders` 
+`WHERE order_date > '2022-01-01';`
 
 
 Retrieve data from multiple tables using JOIN:
 
-`SELECT customers.customer_name, orders.order_date<br> 
-FROM customers<br> 
-JOIN orders<br> 
-ON customers.customer_id = orders.customer_id;`
+`SELECT customers.customer_name, orders.order_date`<br> 
+`FROM customers`<br> 
+`JOIN orders`<br> 
+`ON customers.customer_id = orders.customer_id;`
 
 
 Sort data in ascending order using ORDER BY:
 
-`SELECT * 
-FROM products 
-ORDER BY product_name ASC;`
+`SELECT *` 
+`FROM products`
+`ORDER BY product_name ASC;`
 
 
 Limit the number of rows returned using LIMIT:
 
-`SELECT * 
-FROM orders 
-LIMIT 10;`
+`SELECT *` 
+`FROM orders` 
+`LIMIT 10;`
 
 
 Count the number of rows that meet a condition using COUNT:
 
-`SELECT COUNT(*) 
-FROM orders 
-WHERE order_date > '2022-01-01';`
+`SELECT COUNT(*)` 
+`FROM orders` 
+`WHERE order_date > '2022-01-01';`
 
 
 
