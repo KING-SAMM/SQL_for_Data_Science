@@ -26,12 +26,14 @@ Retrieve all data from a single table:
 `SELECT * 
 FROM customers;`
 
+---
 
 Retrieve specific columns from a single table:
 
 `SELECT customer_name, customer_email`<br>
 `FROM customers;`
 
+---
 
 Retrieve data based on a condition using WHERE:
 
@@ -39,6 +41,7 @@ Retrieve data based on a condition using WHERE:
 `FROM orders`<br>
 `WHERE order_date > '2022-01-01';`
 
+---
 
 Retrieve data from multiple tables using JOIN:
 
@@ -47,6 +50,7 @@ Retrieve data from multiple tables using JOIN:
 `JOIN orders`<br> 
 `ON customers.customer_id = orders.customer_id;`
 
+---
 
 Sort data in ascending order using ORDER BY:
 
@@ -54,6 +58,7 @@ Sort data in ascending order using ORDER BY:
 `FROM products`<br>
 `ORDER BY product_name ASC;`
 
+---
 
 Limit the number of rows returned using LIMIT:
 
@@ -61,6 +66,7 @@ Limit the number of rows returned using LIMIT:
 `FROM orders`<br> 
 `LIMIT 10;`
 
+---
 
 Count the number of rows that meet a condition using COUNT:
 
