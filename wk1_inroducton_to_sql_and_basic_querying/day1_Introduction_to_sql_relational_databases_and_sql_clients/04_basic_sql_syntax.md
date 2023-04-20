@@ -29,14 +29,14 @@ FROM customers;`
 
 Retrieve specific columns from a single table:
 
-`SELECT customer_name, customer_email` 
+`SELECT customer_name, customer_email`<br>
 `FROM customers;`
 
 
 Retrieve data based on a condition using WHERE:
 
-`SELECT * `
-`FROM orders` 
+`SELECT * `<br>
+`FROM orders`<br>
 `WHERE order_date > '2022-01-01';`
 
 
@@ -50,22 +50,22 @@ Retrieve data from multiple tables using JOIN:
 
 Sort data in ascending order using ORDER BY:
 
-`SELECT *` 
-`FROM products`
+`SELECT *`<br>
+`FROM products`<br>
 `ORDER BY product_name ASC;`
 
 
 Limit the number of rows returned using LIMIT:
 
-`SELECT *` 
-`FROM orders` 
+`SELECT *`<br> 
+`FROM orders`<br> 
 `LIMIT 10;`
 
 
 Count the number of rows that meet a condition using COUNT:
 
-`SELECT COUNT(*)` 
-`FROM orders` 
+`SELECT COUNT(*)`<br>
+`FROM orders`<br>
 `WHERE order_date > '2022-01-01';`
 
 
