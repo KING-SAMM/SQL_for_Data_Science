@@ -1,10 +1,10 @@
 # Lesson 1
 # THE GROUP BY CLAUSE
 
-## 1. Simple GROUP BY example
-**Database**: Sales<br>
-**Table**: Orders<br>
-**Columns**: order_id, customer_id, order_date, total_amount
+### 1. Simple GROUP BY example
+*Database*: Sales<br>
+*Table*: Orders<br>
+*Columns*: order_id, customer_id, order_date, total_amount
 
 Rows:
 
@@ -33,10 +33,10 @@ Output:
 
 ---
 
-## 2. GROUP BY with HAVING example
-**Database**: Sales<br>
-**Table**: Orders<br>
-**Columns**: order_id, customer_id, order_date, total_amount
+### 2. GROUP BY with HAVING example
+*Database*: Sales<br>
+*Table*: Orders<br>
+*Columns*: order_id, customer_id, order_date, total_amount
 
 
 Rows:
@@ -66,10 +66,10 @@ Output:
 
 ---
 
-## 3. GROUP BY with multiple columns example
-**Database**: Sales<br>
-**Table**: Orders<br>
-**Columns**: order_id, customer_id, order_date, total_amount
+### 3. GROUP BY with multiple columns example
+*Database*: Sales<br>
+*Table*: Orders<br>
+*Columns*: order_id, customer_id, order_date, total_amount
 
 
 Rows:
