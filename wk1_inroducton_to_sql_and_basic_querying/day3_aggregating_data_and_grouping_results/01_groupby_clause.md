@@ -61,6 +61,7 @@ Output:
 customer_id	SUM(total_amount)
 103	200.00
 101	150.00
+
 ---
 
 3. GROUP BY with multiple columns example
