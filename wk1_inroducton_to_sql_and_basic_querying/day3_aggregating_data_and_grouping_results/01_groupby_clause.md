@@ -51,10 +51,10 @@ Rows:
 
 Query:
 
-SELECT customer_id, SUM(total_amount)
+`SELECT customer_id, SUM(total_amount)
 FROM Orders
 GROUP BY customer_id
-HAVING SUM(total_amount) > 100;
+HAVING SUM(total_amount) > 100;`
 
 
 Output:
@@ -85,9 +85,9 @@ Rows:
 
 Query:
 
-SELECT customer_id, YEAR(order_date), SUM(total_amount)
+`SELECT customer_id, YEAR(order_date), SUM(total_amount)
 FROM Orders
-GROUP BY customer_id, YEAR(order_date);
+GROUP BY customer_id, YEAR(order_date);`
 
 
 Output:
