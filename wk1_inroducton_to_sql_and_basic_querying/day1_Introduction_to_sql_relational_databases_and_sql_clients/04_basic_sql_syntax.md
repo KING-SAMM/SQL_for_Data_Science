@@ -12,8 +12,11 @@
 ## Data Types: integer, float, text, date/time
 
 **Integer**: a whole number without a decimal point
+
 **Float**: a number with a decimal point
+
 **Text**: a string of characters, such as a word or sentence
+
 **Date/time**: a specific date or time value
 
 ## Writing Basic Queries:
@@ -39,9 +42,9 @@ WHERE order_date > '2022-01-01';`
 
 Retrieve data from multiple tables using JOIN:
 
-`SELECT customers.customer_name, orders.order_date 
-FROM customers 
-JOIN orders 
+`SELECT customers.customer_name, orders.order_date<br> 
+FROM customers<br> 
+JOIN orders<br> 
 ON customers.customer_id = orders.customer_id;`
 
 
