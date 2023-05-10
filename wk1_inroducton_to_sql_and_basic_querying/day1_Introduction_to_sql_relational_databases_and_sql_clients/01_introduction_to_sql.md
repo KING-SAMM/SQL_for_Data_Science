@@ -1,11 +1,11 @@
 # Lesson 1
-# INTRODUCTION TO SQL
+# Introduction to SQL
 
 ## What is SQL?
-: SQL stands for ==Structured Query Language==. It is a standard language used for managing and manipulating relational databases. SQL is used for creating, modifying, and extracting data from databases. It provides a way to store and retrieve data in a structured and organized manner.
+***SQL*** stands for ***Structured Query Language***. It is a standard language used for managing and manipulating relational databases. SQL is used for creating, modifying, and extracting data from databases. It provides a way to store and retrieve data in a structured and organized manner.
 
-## Brief History of SQL
-SQL was developed by IBM in the 1970s as a way to manage and manipulate data stored in relational databases. The first version of SQL, called SEQUEL, was developed by Donald D. Chamberlin and Raymond F. Boyce in the early 1970s. It was later standardized by the American National Standards Institute (ANSI) and the International Organization for Standardization (ISO) in the late 1980s.
+## Brief history of SQL
+SQL was developed by IBM in the 1970s as a way to manage and manipulate data stored in relational databases. The first version of SQL, called ***SEQUEL***, was developed by Donald D. Chamberlin and Raymond F. Boyce in the early 1970s. It was later standardized by the American _National Standards Institute (ANSI)_ and the International Organization for Standardization (ISO) in the late 1980s.
 
 Since its development, SQL has become the standard language for managing and manipulating relational databases. It has evolved over the years with various vendors implementing their own versions of SQL with extensions and variations to the standard.
 

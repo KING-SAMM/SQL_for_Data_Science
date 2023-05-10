@@ -1,15 +1,15 @@
 # Lesson 4 
-# BASIC SQL SYNTAX
+# Basic SQL Syntax
 
-## SQL Keywords: SELECT, FROM, WHERE
+## SQL keywords: SELECT, FROM, WHERE
 
-*SELECT*: used to specify the columns that you want to retrieve from a table
+***SELECT***: used to specify the columns that you want to retrieve from a table
 
-*FROM*: used to specify the table or tables from which to retrieve data
+***FROM***: used to specify the table or tables from which to retrieve data
 
-*WHERE*: used to specify the conditions that must be met for a row to be returned
+***WHERE***: used to specify the conditions that must be met for a row to be returned
 
-## Data Types: integer, float, text, date/time
+## Data types: integer, float, text, date/time
 
 **Integer**: a whole number without a decimal point
 
@@ -19,7 +19,7 @@
 
 **Date/time**: a specific date or time value
 
-## Writing Basic Queries:
+## Writing basic queries:
 
 Retrieve all data from a single table:
 

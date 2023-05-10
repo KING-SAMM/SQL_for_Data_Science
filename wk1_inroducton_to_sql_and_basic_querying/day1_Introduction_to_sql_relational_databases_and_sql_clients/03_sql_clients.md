@@ -1,5 +1,5 @@
 # Lesson 3 
-# SQL CLIENTS
+# SQL Clients
 
 ## What are SQL clients?
 
@@ -18,16 +18,16 @@ SQL clients are software applications used to access and manage data in SQL data
 
 ## Installing and configuring an SQL client.
 
-**a. MySQL Workbench**: To install MySQL Workbench, visit the MySQL website and download the appropriate installer for your operating system. Follow the on-screen instructions to install the software. After installation, launch MySQL Workbench and configure a new connection by providing the necessary database credentials.
+***a. MySQL Workbench***: To install MySQL Workbench, visit the MySQL website and download the appropriate installer for your operating system. Follow the on-screen instructions to install the software. After installation, launch MySQL Workbench and configure a new connection by providing the necessary database credentials.
 
-**b. SQL Server Management Studio**: SQL Server Management Studio is typically installed as part of the SQL Server installation process. If you do not have SQL Server installed, you can download SQL Server Management Studio separately from the Microsoft website. Once installed, launch SSMS and connect to a SQL Server instance by providing the server name and authentication details.
+***b. SQL Server Management Studio***: SQL Server Management Studio is typically installed as part of the SQL Server installation process. If you do not have SQL Server installed, you can download SQL Server Management Studio separately from the Microsoft website. Once installed, launch SSMS and connect to a SQL Server instance by providing the server name and authentication details.
 
-**c. PostgreSQL**: To install PostgreSQL, visit the PostgreSQL website and download the appropriate installer for your operating system. Follow the on-screen instructions to install the software. After installation, launch your preferred SQL client and configure a new connection by providing the necessary database credentials.
+***c. PostgreSQL***: To install PostgreSQL, visit the PostgreSQL website and download the appropriate installer for your operating system. Follow the on-screen instructions to install the software. After installation, launch your preferred SQL client and configure a new connection by providing the necessary database credentials.
 
 ## Connecting to a database.
 
-**a. MySQL Workbench**: To connect to a MySQL database with MySQL Workbench, launch the software and select "New Connection" from the "Database" menu. Enter the necessary database credentials, including the host name, port number, username, and password. Click "Test Connection" to ensure that the connection is successful, then click "OK" to save the connection details.
+***a. MySQL Workbench***: To connect to a MySQL database with MySQL Workbench, launch the software and select "New Connection" from the "Database" menu. Enter the necessary database credentials, including the host name, port number, username, and password. Click "Test Connection" to ensure that the connection is successful, then click "OK" to save the connection details.
 
-**b. SQL Server Management Studio**: To connect to a SQL Server database with SSMS, launch the software and select "Connect" from the "Object Explorer" pane. Enter the necessary server and authentication details, including the server name, authentication method, username, and password. Click "Connect" to establish the connection.
+***b. SQL Server Management Studio***: To connect to a SQL Server database with SSMS, launch the software and select "Connect" from the "Object Explorer" pane. Enter the necessary server and authentication details, including the server name, authentication method, username, and password. Click "Connect" to establish the connection.
 
-**c. PostgreSQL**: To connect to a PostgreSQL database with your SQL client, launch the software and select "New Connection" or "New Query" from the file menu. Enter the necessary database credentials, including the host name, port number, username, and password. Click "Test Connection" to ensure that the connection is successful, then click "OK" to save the connection details.
+***c. PostgreSQL***: To connect to a PostgreSQL database with your SQL client, launch the software and select "New Connection" or "New Query" from the file menu. Enter the necessary database credentials, including the host name, port number, username, and password. Click "Test Connection" to ensure that the connection is successful, then click "OK" to save the connection details.
