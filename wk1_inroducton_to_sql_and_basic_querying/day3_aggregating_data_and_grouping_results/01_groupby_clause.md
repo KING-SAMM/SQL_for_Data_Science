@@ -1,5 +1,5 @@
 # Lesson 1
-# THE GROUP BY CLAUSE
+# The GROUP BY Clause
 
 ### 1. Simple GROUP BY example
 *Database*: Sales<br>
