@@ -1,4 +1,4 @@
-# Lesson 1
+### Lesson 1
 # Introduction to SQL
 
 ## What is SQL?

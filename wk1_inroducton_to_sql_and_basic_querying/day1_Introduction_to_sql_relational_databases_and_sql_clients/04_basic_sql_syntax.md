@@ -1,4 +1,4 @@
-# Lesson 4 
+### Lesson 4 
 # Basic SQL Syntax
 
 ## SQL keywords: SELECT, FROM, WHERE

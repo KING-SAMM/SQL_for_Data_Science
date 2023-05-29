@@ -17,9 +17,9 @@ Understanding the concept of primary and foreign keys in relational databases.
 
 2. Inner join:
 
-Definition of an inner join and its purpose in combining data from multiple tables.
-Syntax of the INNER JOIN clause and its usage in queries.
-Explanation of the matching criteria in an inner join.
+i. Definition of an inner join and its purpose in combining data from multiple tables.
+ii. Syntax of the INNER JOIN clause and its usage in queries.
+iii. Explanation of the matching criteria in an inner join.
 Use of table aliases to simplify query writing.
 
 
@@ -68,10 +68,16 @@ Exercise 3: Write a query that includes a self-join to retrieve related informat
 Resources:
 
 Text resources:
-"SQL Joins Explained" by SQLShack: Link to article
-"A Visual Explanation of SQL Joins" by Coding Horror: Link to article
-Video resources:
+"[A Visual Explanation of SQL Joins](https://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)" by Coding Horror
+
+Video resources: (Resources are currently unavailable)
 "SQL Joins Tutorial for Beginners" by Simplilearn: Link to video
 "SQL Joins in 10 Minutes" by Joe James: [Link to video](https://www.youtube.com/watch?v=4_ZvccM1X2
 
 
+
+CAMPAIGN
+Create an ad campaign for `SQL for Data Science` course/training that will be starting from Monday, 5th June. This ad campaign will be sent via WhatsApp to prospective students. Let it be compelling, catchy and effective. It should include information regarding the relevance of SQL (and Data Science) today and in the future with verifiable statistics. This campaign will run from now till the start of the course. Prospective students will get campaign messages 3 times a week building up to the start of the course.  
+Venue for the training: CCIT Digital Solutions, 81 Bode Thomas Street, Lagos.
+Duration: 4 weeks. Mondays, Wednesdays and Fridays each week.
+Time: 10 am .
