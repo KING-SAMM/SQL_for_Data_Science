@@ -1,4 +1,4 @@
-# Lesson 1
+## Lesson 1
 # The GROUP BY Clause
 
 ### 1. Simple GROUP BY example
@@ -18,9 +18,11 @@ Rows:
 
 Query:
 
-`SELECT customer_id, SUM(total_amount)`<br>
-`FROM Orders`<br>
-`GROUP BY customer_id;`
+```sql
+SELECT customer_id, SUM(total_amount)
+FROM Orders
+GROUP BY customer_id;
+```
 
 
 Output:
@@ -51,10 +53,12 @@ Rows:
 
 Query:
 
-`SELECT customer_id, SUM(total_amount)`<br>
-`FROM Orders`<br>
-`GROUP BY customer_id`<br>
-`HAVING SUM(total_amount) > 100;`
+```sql
+SELECT customer_id, SUM(total_amount)
+FROM Orders
+GROUP BY customer_id
+HAVING SUM(total_amount) > 100;
+```
 
 
 Output:
@@ -85,9 +89,11 @@ Rows:
 
 Query:
 
-`SELECT customer_id, YEAR(order_date), SUM(total_amount)`<br>
-`FROM Orders`<br>
-`GROUP BY customer_id, YEAR(order_date);`
+```sql
+SELECT customer_id, YEAR(order_date), SUM(total_amount)
+FROM Orders
+GROUP BY customer_id, YEAR(order_date);
+```
 
 
 Output:

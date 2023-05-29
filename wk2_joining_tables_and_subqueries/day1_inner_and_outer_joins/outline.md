@@ -25,9 +25,9 @@ Use of table aliases to simplify query writing.
 
 3. Outer join:
 
-Definition of outer joins, including left outer join, right outer join, and full outer join.
-Syntax of the LEFT JOIN, RIGHT JOIN, and FULL JOIN clauses.
-Comparison between outer joins and inner joins.
+i. Definition of outer joins, including left outer join, right outer join, and full outer join.
+ii. Syntax of the LEFT JOIN, RIGHT JOIN, and FULL JOIN clauses.
+iii. Comparison between outer joins and inner joins.
 Handling NULL values in outer join results.
 
 
@@ -39,9 +39,9 @@ Exploring additional options like CROSS JOIN and NATURAL JOIN.
 
 5. Common join operators:
 
-Equi-join: Explanation of equi-joins, which involve comparing columns with equal values.
-Non-equi join: Introduction to non-equi joins, where columns are compared with inequality operators.
-Self-join: Understanding self-joins, where a table is joined with itself.
+i. Equi-join: Explanation of equi-joins, which involve comparing columns with equal values.
+ii. Non-equi join: Introduction to non-equi joins, where columns are compared with inequality operators.
+iii. Self-join: Understanding self-joins, where a table is joined with itself.
 
 
 Activities:
@@ -51,6 +51,7 @@ Query writing exercises:
 Exercise 1: Joining two tables using an inner join and retrieving specific columns from both tables.
 Exercise 2: Performing a left outer join between two tables and retrieving matching records from one table.
 Exercise 3: Writing a query that includes a self-join to retrieve related information from a single table.
+
 Hands-on practice:
 
 Scenario: Given two tables, "Customers" and "Orders," students will write a query to retrieve customer information along with their corresponding orders.
@@ -76,8 +77,3 @@ Video resources: (Resources are currently unavailable)
 
 
 
-CAMPAIGN
-Create an ad campaign for `SQL for Data Science` course/training that will be starting from Monday, 5th June. This ad campaign will be sent via WhatsApp to prospective students. Let it be compelling, catchy and effective. It should include information regarding the relevance of SQL (and Data Science) today and in the future with verifiable statistics. This campaign will run from now till the start of the course. Prospective students will get campaign messages 3 times a week building up to the start of the course.  
-Venue for the training: CCIT Digital Solutions, 81 Bode Thomas Street, Lagos.
-Duration: 4 weeks. Mondays, Wednesdays and Fridays each week.
-Time: 10 am .
