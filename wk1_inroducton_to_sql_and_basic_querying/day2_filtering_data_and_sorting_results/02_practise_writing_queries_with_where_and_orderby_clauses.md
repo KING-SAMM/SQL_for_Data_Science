@@ -1,43 +1,62 @@
-Lesson 2: Practice Writing Queries with WHERE and ORDER BY Clauses
+## Lesson 2: 
 
-i. Using the WHERE clause to filter data based on specific criteria:
+# Practice Writing Queries with WHERE and ORDER BY Clauses
 
-Example 1: Selecting all customers from a customer table with a specific last name:
+## i. Using the WHERE clause to filter data based on specific criteria:
 
-`SELECT * FROM customer WHERE last_name = 'Smith';`
+### Example 1: Selecting all customers from a customer table with a specific last name:
 
-Example 2: Selecting all products from a product table with a price less than a certain value:
+```sql
+SELECT * FROM customer WHERE last_name = 'Smith';
+```
 
-`SELECT * FROM product WHERE price < 50;`
+### Example 2: Selecting all products from a product table with a price less than a certain value:
 
-ii. Sorting query results with ORDER BY:
+```sql
+SELECT * FROM product WHERE price < 50;
+```
 
-Example 1: Sorting customers from a customer table by last name in ascending order:
+## ii. Sorting query results with ORDER BY:
 
-`SELECT * FROM customer ORDER BY last_name ASC;`
+### Example 1: Sorting customers from a customer table by last name in ascending order:
 
-Example 2: Sorting products from a product table by price in descending order:
+```sql
+SELECT * FROM customer ORDER BY last_name ASC;
+```
 
-`SELECT * FROM product ORDER BY price DESC;`
-iii. Sorting by multiple columns:
+### Example 2: Sorting products from a product table by price in descending order:
 
-Example 1: Sorting customers from a customer table by last name in ascending order, then by first name in ascending order:
+```sql
+SELECT * FROM product ORDER BY price DESC;
+```
 
-`SELECT * FROM customer ORDER BY last_name ASC, first_name ASC;`
+## iii. Sorting by multiple columns:
 
-Example 2: Sorting products from a product table by category in ascending order, then by price in descending order:
+### Example 1: Sorting customers from a customer table by last name in ascending order, then by first name in ascending order:
 
-`SELECT * FROM product ORDER BY category ASC, price DESC;`
+```sql
+SELECT * FROM customer ORDER BY last_name ASC, first_name ASC;
+```
+
+### Example 2: Sorting products from a product table by category in ascending order, then by price in descending order:
+
+```sql
+SELECT * FROM product ORDER BY category ASC, price DESC;
+```
 
 
-iv. Using the DESC keyword to sort in descending order:
+## iv. Using the DESC keyword to sort in descending order:
 
-Example 1: Sorting customers from a customer table by last name in descending order:
+### Example 1: Sorting customers from a customer table by last name in descending order:
 
-`SELECT * FROM customer ORDER BY last_name DESC;`
+```sql
+SELECT * FROM customer ORDER BY last_name DESC;
+```
 
-Example 2: Sorting products from a product table by price in descending order:
+### Example 2: Sorting products from a product table by price in descending order:
 
-`SELECT * FROM product ORDER BY price DESC;`
+```sql
+SELECT * FROM product ORDER BY price DESC;
+```
 
 
