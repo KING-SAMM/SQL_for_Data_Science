@@ -17,4 +17,5 @@ SQL provides a way to write queries to retrieve data from databases, join tables
 
 [2. Relational Databases](02_relational_databases.md)
 
-
+|[< Outline](outline.md)  |           | [2. Relational Databases >](02_relational_databases.md)|
+|:-----------------------:|:---------:|:------------------------------------------------------:|

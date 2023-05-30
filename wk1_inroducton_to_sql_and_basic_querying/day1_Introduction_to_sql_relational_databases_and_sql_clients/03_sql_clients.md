@@ -31,3 +31,6 @@ SQL clients are software applications used to access and manage data in SQL data
 ***b. SQL Server Management Studio***: To connect to a SQL Server database with SSMS, launch the software and select "Connect" from the "Object Explorer" pane. Enter the necessary server and authentication details, including the server name, authentication method, username, and password. Click "Connect" to establish the connection.
 
 ***c. PostgreSQL***: To connect to a PostgreSQL database with your SQL client, launch the software and select "New Connection" or "New Query" from the file menu. Enter the necessary database credentials, including the host name, port number, username, and password. Click "Test Connection" to ensure that the connection is successful, then click "OK" to save the connection details.
+
+|[< 2. Relational Databases](02_relational_databases.md)  |           | [4. Basic SQL Syntax >](04_basic_sql_syntax.md)|
+|:-------------------------------------------------------:|:---------:|:----------------------------------------------:|
