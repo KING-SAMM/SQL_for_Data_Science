@@ -34,3 +34,8 @@ SQL Tutorial for Beginners by Simplilearn: https://www.youtube.com/watch?v=HXV3z
 Final Project:
 
 For the final project, students will be given a dataset and asked to perform various SQL operations on it. They will be required to write complex SELECT statements with multiple JOIN clauses to retrieve data from multiple tables. They will also be required to use various aggregate functions such as COUNT, SUM, and AVG to perform calculations on the data. Finally, they will be asked to create views and stored procedures to automate certain tasks.
+
+
+
+|[< 4. Basic SQL Syntax](04_basic_sql_syntax.md)  |           | [Outline >](outline.md)|
+|:-----------------------------------------------:|:---------:|:----------------------:|
