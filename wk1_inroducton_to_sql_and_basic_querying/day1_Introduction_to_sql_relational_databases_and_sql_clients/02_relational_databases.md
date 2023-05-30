@@ -22,4 +22,5 @@ In a relational database, a ***primary key*** is a column or set of columns in a
 ***Database normalization*** is the process of organizing the columns and tables in a relational database to reduce redundancy and improve data integrity. This involves breaking down large tables into smaller ones, creating relationships between tables, and ensuring that each table has a clear and specific purpose. Normalization helps to prevent data inconsistencies and anomalies, making it easier to maintain and update the database over time.
 
 
-
+|[1. Introduction to SQL](01_introduction_to_sql.md)  |[3. SQL Clients](03_sql_clients.md)|
+|:---------------------------------------------------:|:---------------------------------:|

@@ -15,6 +15,6 @@ SQL is important for data science because it is the standard language used for m
 SQL provides a way to write queries to retrieve data from databases, join tables together, filter and sort data, and perform calculations and aggregations. Without SQL, data scientists would need to rely on manual manipulation of data, which would be time-consuming and error-prone. SQL is also essential for working with big data, as it provides a scalable and efficient way to process and analyze large datasets.
 
 
-
+[2. Relational Databases](02_relational_databases.md)
 
 
