@@ -18,7 +18,11 @@ SQL clients are software applications used to access and manage data in SQL data
 
 ## Installing and configuring an SQL client.
 
-***a. MySQL Workbench***: To install MySQL Workbench, [visit the MySQL website](https://dev.mysql.com/downloads/workbench/) and download the appropriate installer for your operating system. ![MySQL Workbench download page](https://sqlfordatascience.com.ng/img/week1/mysql-workbench-download-page.png "MySQL Workbench download page") Follow the on-screen instructions to install the software. After installation, launch MySQL Workbench and configure a new connection by providing the necessary database credentials.
+***a. MySQL Workbench***: To install MySQL Workbench, [visit the MySQL website](https://dev.mysql.com/downloads/workbench/) and download the appropriate installer for your operating system. 
+
+![MySQL Workbench download page](https://sqlfordatascience.com.ng/img/week1/mysql-workbench-download-page-md.png "MySQL Workbench download page") 
+
+Follow the on-screen instructions to install the software. After installation, launch MySQL Workbench and configure a new connection by providing the necessary database credentials.
 
 ***b. SQL Server Management Studio***: SQL Server Management Studio is typically installed as part of the SQL Server installation process. If you do not have SQL Server installed, you can download SQL Server Management Studio separately from the Microsoft website. Once installed, launch SSMS and connect to a SQL Server instance by providing the server name and authentication details.
 
