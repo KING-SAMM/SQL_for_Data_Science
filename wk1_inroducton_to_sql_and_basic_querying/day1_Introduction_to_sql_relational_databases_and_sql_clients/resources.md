@@ -37,5 +37,5 @@ For the final project, students will be given a dataset and asked to perform var
 
 
 
-|[< 4. Basic SQL Syntax](04_basic_sql_syntax.md)  |           | [Outline >](outline.md)|
-|:-----------------------------------------------:|:---------:|:----------------------:|
+|[< 4. Basic SQL Syntax](04_basic_sql_syntax.md)|         | [Assignment 1 >](assignment1.md)|
+|:---------------------------------------------:|:-------:|:----------------------:|

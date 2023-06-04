@@ -40,3 +40,6 @@ Hint: Limit the number of rows returned using LIMIT
 
 Hint: Retrieve the data from multiple tables using JOIN
 
+
+|[< Resources](resources.md)|         | [Outline >](outline.md)|
+|:-------------------------:|:-------:|:----------------------:|

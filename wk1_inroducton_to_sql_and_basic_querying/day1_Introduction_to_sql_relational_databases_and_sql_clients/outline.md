@@ -90,5 +90,5 @@ Summary:
 In Week 1, Day 1 of the SQL for Data Science curriculum, students will be introduced to SQL, relational databases, SQL clients, and basic SQL syntax. They will learn how to write SELECT statements to retrieve data from a single table and how to filter data using WHERE clauses. They will also be introduced to database normalization and primary and foreign keys. The class will be supplemented with video tutorials and exercises to reinforce learning.
 
 
-|[< Resoures](resources.md) |           | [1. Introduction to SQL >](01_introduction_to_sql.md)|
-|:-------------------------:|:---------:|:----------------------------------------------------:|
+|[< Assignment 1](assignment1.md)|         |[1. Introduction to SQL >](01_introduction_to_sql.md)|
+|:------------------------------:|:-------:|:---------------------------------------------------:|
