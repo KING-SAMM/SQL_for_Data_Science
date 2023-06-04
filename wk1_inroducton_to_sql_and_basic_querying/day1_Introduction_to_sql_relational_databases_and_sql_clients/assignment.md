@@ -2,7 +2,8 @@
 
 # Composing Basic Queries
 
-### Test Database: SAKILA
+#### DATABASE: sakila
+#### TABLES: customer_list, payment
 
 
 ### Question 1: Compose an SQL query to display the number of times Mary Smith made payment, and show the output.
