@@ -18,25 +18,37 @@ SQL clients are software applications used to access and manage data in SQL data
 
 ## Installing and configuring an SQL client.
 
-***a. MySQL Workbench***: To install MySQL Workbench, [visit the MySQL website](https://dev.mysql.com/downloads/workbench/) and download the appropriate installer for your operating system. 
+***a. MySQL Workbench***: 
+To install MySQL Workbench, [visit the MySQL website](https://dev.mysql.com/downloads/workbench/) and download the appropriate installer for your operating system. 
 
 ![MySQL Workbench download page](https://sqlfordatascience.com.ng/img/week1/mysql-workbench-download-page-md.png "MySQL Workbench download page") 
 
 Follow the on-screen instructions to install the software. After installation, launch MySQL Workbench and configure a new connection by providing the necessary database credentials.
 
-***b. SQL Server Management Studio***: SQL Server Management Studio is typically installed as part of the SQL Server installation process. If you do not have SQL Server installed, you can download SQL Server Management Studio separately from the Microsoft website. Once installed, launch SSMS and connect to a SQL Server instance by providing the server name and authentication details.
+***b. SQL Server Management Studio***: 
+SQL Server Management Studio is typically installed as part of the SQL Server installation process. If you do not have SQL Server installed, you can download SQL Server Management Studio separately from the Microsoft website. Once installed, launch SSMS and connect to a SQL Server instance by providing the server name and authentication details.
 
-***c. PostgreSQL***: To install PostgreSQL, visit the PostgreSQL website and download the appropriate installer for your operating system. Follow the on-screen instructions to install the software. After installation, launch your preferred SQL client and configure a new connection by providing the necessary database credentials.
+***c. PostgreSQL***: 
+To install PostgreSQL, visit the PostgreSQL website and download the appropriate installer for your operating system. Follow the on-screen instructions to install the software. After installation, launch your preferred SQL client and configure a new connection by providing the necessary database credentials.
+
 
 ## Connecting to a database.
 
-***a. MySQL Workbench***: To connect to a MySQL database with MySQL Workbench, launch the software and select "New Connection" from the "Database" menu. Enter the necessary database credentials, including the host name, port number, username, and password. Click "Test Connection" to ensure that the connection is successful, then click "OK" to save the connection details.
+***a. MySQL Workbench***: 
+You can connect via:
+    - MySQL workbench,
+    - MySQL Commandline Client or
+    - MySQL Shell
+
+    These three come in the same packsge.
+
+***Via MySQL Workbench***: To connect to a MySQL database with MySQL Workbench, launch the software and select "New Connection" from the "Database" menu. Enter the necessary database credentials, including the host name, port number, username, and password. Click "Test Connection" to ensure that the connection is successful, then click "OK" to save the connection details.
 
 ***via MySQL Commandline Client***: This CLI tool comes with the MySQL package when downloading and installing MySQL Server and Workbench. Search for it in the searchbox or start menu and launch it from there.
 
 ![MySQL Commandline Client](https://sqlfordatascience.com.ng/img/week1/mysql-clclient.png "MySQL Coomandline Client")
 
-It opens with a prompt to enter a password. Provide the password you set while configuring MySQL Workbench and you will get a welcome message.
+It opens with a prompt to enter a password. Provide the password you set while configuring MySQL Workbench and you will get a welcome message when connected.
 
 ![MySQL Commandline Client welcome message](https://sqlfordatascience.com.ng/img/week1/mysql-clclient-welcome.png "MySQL Coomandline Client welcome message")
 
@@ -61,9 +73,11 @@ and provide the password
 ![MySQL Shell connect to database](https://sqlfordatascience.com.ng/img/week1/mysql-shell-connect.png "MySQL Shell connect to database")
 
 
-***b. SQL Server Management Studio***: To connect to a SQL Server database with SSMS, launch the software and select "Connect" from the "Object Explorer" pane. Enter the necessary server and authentication details, including the server name, authentication method, username, and password. Click "Connect" to establish the connection.
+***b. SQL Server Management Studio***: 
+To connect to a SQL Server database with SSMS, launch the software and select "Connect" from the "Object Explorer" pane. Enter the necessary server and authentication details, including the server name, authentication method, username, and password. Click "Connect" to establish the connection.
 
-***c. PostgreSQL***: To connect to a PostgreSQL database with your SQL client, launch the software and select "New Connection" or "New Query" from the file menu. Enter the necessary database credentials, including the host name, port number, username, and password. Click "Test Connection" to ensure that the connection is successful, then click "OK" to save the connection details.
+***c. PostgreSQL***: 
+To connect to a PostgreSQL database with your SQL client, launch the software and select "New Connection" or "New Query" from the file menu. Enter the necessary database credentials, including the host name, port number, username, and password. Click "Test Connection" to ensure that the connection is successful, then click "OK" to save the connection details.
 
 |[< 2. Relational Databases](02_relational_databases.md)  |           | [4. Basic SQL Syntax >](04_basic_sql_syntax.md)|
 |:-------------------------------------------------------:|:---------:|:----------------------------------------------:|
