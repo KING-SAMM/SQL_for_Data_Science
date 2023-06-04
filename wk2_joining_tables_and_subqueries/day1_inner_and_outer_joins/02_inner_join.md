@@ -2,6 +2,8 @@
 
 # Inner Join
 
+![Inner Join](https://sqlfordatascience.com.ng/img/week2/inner-join.png "Inner join")
+
 ## i. Definition of an inner join and its purpose in combining data from multiple tables:
    - An inner join is a type of join operation that combines data from two or more tables based on a common column or columns. It retrieves only the rows that have matching values in both tables, excluding non-matching rows. The purpose of an inner join is to retrieve related data from multiple tables, allowing us to analyze and connect information across different datasets.
 
@@ -73,4 +75,4 @@ Output:
 |-------------|---------------|-----------------|
 | 1           | John Smith    | Sales           |
 | 2           | Jane Doe      | Marketing       |
-| 3           | Alex Johnson 
+| 3           | Alex Johnson  | Sales           |

@@ -5,8 +5,16 @@
 ## i. Definition of outer joins, including left outer join, right outer join, and full outer join:
    - Outer joins are used to combine data from two or more tables, including non-matching rows, in addition to matching rows. There are three types of outer joins:
      1. Left Outer Join: Retrieves all rows from the left (or first) table and the matching rows from the right (or second) table. If there are no matching rows in the right table, NULL values are included for the columns of the right table.
+
+     ![Left Join](https://sqlfordatascience.com.ng/img/week2/left-join.png "Left join")
+
      2. Right Outer Join: Retrieves all rows from the right table and the matching rows from the left table. If there are no matching rows in the left table, NULL values are included for the columns of the left table.
+
+     ![Right Join](https://sqlfordatascience.com.ng/img/week2/right-join.png "Right join")
+
      3. Full Outer Join: Retrieves all rows from both tables, including matching and non-matching rows. If there are no matching rows, NULL values are included for the columns of the respective tables.
+
+     ![Full Outer Join](https://sqlfordatascience.com.ng/img/week2/full-outer-join.png "Full outer join")
 
 ## ii. Syntax of the LEFT JOIN, RIGHT JOIN, and FULL JOIN clauses:
    - The syntax of the outer join clauses is as follows:

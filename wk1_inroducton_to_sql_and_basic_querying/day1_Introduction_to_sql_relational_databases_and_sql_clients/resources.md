@@ -23,7 +23,6 @@
 
 
 ## Video Tutorials:
-
 ### Here are some video tutorials that can be used to supplement the Week 1, Day 1 curriculum:
 
 ### Introduction to SQL:
