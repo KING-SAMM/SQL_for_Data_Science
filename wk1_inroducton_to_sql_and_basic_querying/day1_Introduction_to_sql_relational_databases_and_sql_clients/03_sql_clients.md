@@ -32,13 +32,31 @@ Follow the on-screen instructions to install the software. After installation, l
 
 ***a. MySQL Workbench***: To connect to a MySQL database with MySQL Workbench, launch the software and select "New Connection" from the "Database" menu. Enter the necessary database credentials, including the host name, port number, username, and password. Click "Test Connection" to ensure that the connection is successful, then click "OK" to save the connection details.
 
-**via MySQL Commandline Client**: This CLI tool comes with the MySQL package when downloading and installing MySQL Server and Workbench. Search for it in the searchbox or start menu and launch it from there.
+***via MySQL Commandline Client***: This CLI tool comes with the MySQL package when downloading and installing MySQL Server and Workbench. Search for it in the searchbox or start menu and launch it from there.
 
 ![MySQL Commandline Client](https://sqlfordatascience.com.ng/img/week1/mysql-clclient.png "MySQL Coomandline Client")
 
 It opens with a prompt to enter a password. Provide the password you set while configuring MySQL Workbench and you will get a welcome message.
 
 ![MySQL Commandline Client welcome message](https://sqlfordatascience.com.ng/img/week1/mysql-clclient-welcome.png "MySQL Coomandline Client welcome message")
+
+***Via MySQL Shell***This CLI tool comes with the MySQL package when downloading and installing MySQL Server and Workbench. It works and looks similar to MySQL Commandline Client with minor differences. Search for it in the searchbox or start menu and launch it from there.
+
+![MySQL Shell welcome message](https://sqlfordatascience.com.ng/img/week1/mysql-shell-welcome.png "MySQL Shell welcome message")
+
+Type ```\status``` to get the MySQL Shell version and connection status, which should be "Not Connected".
+
+![MySQL Shell sql mode](https://sqlfordatascience.com.ng/img/week1/mysql-shell-sql.png "MySQL Shell mode")
+
+By default the shell is in JS (JavaScript mode). Switch to SQL mode by typing ```\sql```.
+
+![MySQL Shell connect to database](https://sqlfordatascience.com.ng/img/week1/mysql-shell-connect.png "MySQL Shell connect to database")
+
+Connect to MySQL server by using the format: \connect username@servername:port:
+```sql
+\connect root@localhost:3308
+```
+and provide the password
 
 ***b. SQL Server Management Studio***: To connect to a SQL Server database with SSMS, launch the software and select "Connect" from the "Object Explorer" pane. Enter the necessary server and authentication details, including the server name, authentication method, username, and password. Click "Connect" to establish the connection.
 
