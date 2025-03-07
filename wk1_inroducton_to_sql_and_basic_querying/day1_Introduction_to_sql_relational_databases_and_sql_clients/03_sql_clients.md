@@ -23,7 +23,7 @@ To install MySQL Workbench, [visit the MySQL website](https://dev.mysql.com/down
 
 <!-- ![MySQL Workbench download page](https://sqlfordatascience.com.ng/img/week1/mysql-workbench-download-page-md.png "MySQL Workbench download page")  -->
 
-![MySQL Workbench download page](https://github.com/KING-SAMM/assets/blob/master/sql/MySQL-Download-MySQL-Workbench.png "MySQL Workbench download page") 
+![MySQL Workbench download page](https://raw.githubusercontent.com/KING-SAMM/SQL_for_Data_Science/refs/heads/master/assets/sql/MySQL-Download-MySQL-Workbench.png "MySQL Workbench download page") 
 
 Follow the on-screen instructions to install the software. After installation, launch MySQL Workbench and configure a new connection by providing the necessary database credentials.
 
